@@ -1,16 +1,21 @@
-@media (max-width: 1024px) {
-  .parentOfTable {
-    width: 100% !important;
-  }
+@media (max-width: 992px) {
   .parentOfTable .table {
     width: 100% !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
   }
 }
-.parentOfTable {
-  width: 100%;
+@media (max-width: 600px) {
+  .parentOfTable .table {
+    width: 400% !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+  }
 }
 .parentOfTable .table {
   width: 50%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 thead {

@@ -20,7 +20,7 @@ export default function Cart() {
      <TopItem title ={title} path = {path} />
      <div className='py-5'></div>
 
-<div className='parentOfTable d-flex align-items-center  flex-column'>
+<div className='parentOfTable ' style={{overflowX:'auto'}}>
         <table className='table text-center'>
             <thead  className='table-light'>
 <th>image</th>
@@ -55,10 +55,14 @@ export default function Cart() {
 
         </table>
         
-        <button className=' w-50 laastBTN'>PROCEED TO CHECKOUT </button>
+        
        
         
         </div>
+        <div className='d-flex align-items-center justify-content-center mt-5'>
+                 <button className=' w-50 laastBTN'>PROCEED TO CHECKOUT </button>
+        </div>
+   
         <div className='py-5 mt-5'></div>
     </>
   )
