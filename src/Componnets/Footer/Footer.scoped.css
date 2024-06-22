@@ -1,0 +1,88 @@
+.footer {
+  padding: 70px 0px;
+  background-color: rgb(47, 51, 58);
+}
+@media (max-width: 992px) {
+  .footer .ffooter {
+    align-items: center !important;
+    margin-bottom: 15px !important;
+  }
+}
+@media (max-width: 768px) {
+  .footer .ffooter {
+    align-items: start !important;
+    margin-bottom: 15px !important;
+  }
+}
+@media (max-width: 600px) {
+  .footer .ffooter {
+    align-items: start !important;
+    margin-bottom: 15px !important;
+  }
+}
+.footer a {
+  text-decoration: none;
+  margin: 0 !important;
+  padding: 0 !important;
+  color: #fff !important;
+}
+.footer .headerOfFooter {
+  color: white;
+  font-weight: 400;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.footer ul li {
+  list-style: none;
+  color: #fff;
+}
+.footer .social-media {
+  display: flex;
+  gap: 15px;
+  margin-top: 10px;
+}
+.footer .social-media span {
+  cursor: pointer;
+  line-height: 1;
+  padding: 5px;
+  border-radius: 50px;
+}
+.footer .social-media span:hover {
+  background-color: orange;
+}
+.footer .linkPartTwo {
+  margin: 10px 0px;
+  transition: all 0.3s;
+}
+.footer .linkPartTwo:hover {
+  transform: translateX(10px);
+  transition: transform 0.5s ease-in-out;
+}
+.footer .linkPartTwo:hover a {
+  color: orange !important;
+}
+.footer .footerInputField {
+  padding: 10px 20px;
+  background-color: transparent;
+  color: #fff !important;
+  border: 1px solid rgba(255, 255, 255, 0.3882352941);
+  outline: none;
+}
+.footer .footerInputField:focus {
+  border-color: orange;
+}
+.footer .footerInputField::-moz-placeholder {
+  color: #fff !important;
+}
+.footer .footerInputField::placeholder {
+  color: #fff !important;
+}
+.footer .buttonOfSub {
+  padding: 10px 25px;
+  background-color: rgb(255, 136, 0);
+  color: #fff;
+  border: none;
+  border-radius: 0;
+  font-size: 18px;
+  font-weight: 400;
+}/*# sourceMappingURL=Footer.scoped.css.map */

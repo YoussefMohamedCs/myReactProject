@@ -1,0 +1,189 @@
+.productDetails {
+  padding: 80px 0px;
+}
+@media (max-width: 768px) {
+  .productDetails .parentOfCountContraol {
+    width: 100% !important;
+  }
+}
+.productDetails p {
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-bottom: 7px !important;
+}
+.productDetails .title-items .countControal {
+  border: 1px solid orange;
+  padding: 0px;
+  height: 50px;
+}
+.productDetails .title-items .countControal .iconOne {
+  height: 100%;
+  border-right: 1px solid orange;
+  padding: 0px 5px;
+  cursor: pointer;
+}
+.productDetails .title-items .countControal .iconTwo {
+  height: 100%;
+  border-left: 1px solid orange;
+  padding: 0px 5px;
+  cursor: pointer;
+}
+.productDetails .title-items .topIcons {
+  width: 40%;
+}
+.productDetails .title-items .topIcons .iconssONe {
+  gap: 10px;
+  align-items: center;
+}
+.productDetails .title-items .topIcons .iconssTwo {
+  gap: 10px;
+}
+.productDetails .title-items .topIcons p {
+  font-size: 15px;
+}
+.productDetails .title-items .addProductButton {
+  border: none;
+  transition: all 0.5s;
+  background-color: rgb(255, 94, 0);
+  color: #fff;
+}
+.productDetails .title-items .addProductButton:hover {
+  background-color: rgba(0, 0, 0, 0.6509803922);
+}
+.productDetails .title-items ul {
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-top: 30px !important;
+}
+.productDetails .title-items ul li {
+  list-style: none;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+.productDetails .title-items .DropConatainer {
+  border: 1px solid rgba(0, 0, 0, 0.2392156863);
+  cursor: pointer;
+}
+.productDetails .title-items .DropConatainer:active {
+  border-color: orange !important;
+}
+.productDetails .title-items .DropConatainer .dropParent {
+  position: relative;
+}
+.productDetails .title-items .DropConatainer .dropParent .texttt {
+  padding: 10px 20px !important;
+}
+.productDetails .title-items .dicription {
+  font-size: 16px;
+  font-weight: 400;
+}
+.productDetails .title-items .discount {
+  font-size: 26px;
+  color: #000000;
+}
+.productDetails .title-items .discount :nth-child(1) {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.4039215686);
+}
+.productDetails .title-items h2 {
+  font-size: 26px;
+  margin: 14px 0px !important;
+}
+.productDetails .title-items .SKU {
+  color: #000;
+  font-size: 14px;
+  font-weight: 500;
+}
+.productDetails .title-items .SKU .sku-num {
+  color: rgba(0, 0, 0, 0.6235294118);
+}
+.productDetails .swiper-button-prev {
+  opacity: 0 !important;
+}
+.productDetails .swiper-button-next {
+  opacity: 0 !important;
+}
+.productDetails #app {
+  height: 100%;
+}
+.productDetails html,
+.productDetails body {
+  position: relative;
+  height: 100%;
+}
+.productDetails body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+.productDetails .swiper {
+  width: 100%;
+  height: 100%;
+}
+.productDetails .swiper:hover .swiper-button-prev {
+  opacity: 1 !important;
+}
+.productDetails .swiper:hover .swiper-button-next {
+  opacity: 1 !important;
+}
+.productDetails .swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.productDetails .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.productDetails body {
+  background: #000;
+  color: #000;
+}
+.productDetails .swiper {
+  width: 100%;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.productDetails .swiper-slide {
+  background-size: cover;
+  background-position: center;
+}
+.productDetails .mySwiper2 {
+  height: 80%;
+  width: 100%;
+}
+.productDetails .mySwiper {
+  height: 20%;
+  box-sizing: border-box;
+  padding: 10px 0;
+}
+.productDetails .mySwiper .swiper-slide {
+  width: 25%;
+  height: 100%;
+  opacity: 0.4;
+}
+.productDetails .mySwiper .swiper-slide-thumb-active {
+  opacity: 1;
+}
+.productDetails .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+html, body {
+  scroll-behavior: smooth;
+}/*# sourceMappingURL=productDetails.scoped.css.map */

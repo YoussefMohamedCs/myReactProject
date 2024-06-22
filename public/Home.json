@@ -1,0 +1,76 @@
+[
+    {
+        "id" : 1 ,
+        "discountPre" : "-30%" ,
+        "title":"Living Room Sets"  ,
+        "price" : 1540 ,
+        "discount" : 1520 ,
+        "alterImg" :"https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0864%2F0607%2F0562%2Ffiles%2FNav1_LivingRoomFurniture.jpg%3Fv%3D1709032906&w=1920&q=75" ,
+        "image": "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0864%2F0607%2F0562%2Ffiles%2FNav1_LivingRoomFurniture.jpg%3Fv%3D1709032906&w=1920&q=75" ,
+        "discription" : "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,"
+            } ,
+    {
+        "id" : 2 ,
+            "title":"Sofa for living room"  ,
+            "price" : 110 ,
+            "discount" : 130,
+            "image": "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0864%2F0607%2F0562%2Fproducts%2F1.jpg%3Fv%3D1709108882&w=1920&q=75" ,
+            "alterImg" : "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0864%2F0607%2F0562%2Fproducts%2F2_40d9c634-67d1-4623-a7d5-c2ef2b24db83.jpg%3Fv%3D1709108882&w=1920&q=75" ,
+            "discription" : "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia,"
+        } ,
+        {
+            "id" : 3 ,
+            "title":"10. This is the large title for testing large title and there is an image for testing"  ,
+            "price" : 19 ,
+            "discount" : 21,
+            "image": "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0864%2F0607%2F0562%2Fproducts%2F3_82c1df08-4941-4369-83ef-b6fd909fa48c.jpg%3Fv%3D1709108892&w=1920&q=75" ,
+            "alterImg" : "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0864%2F0607%2F0562%2Fproducts%2F4_d2d85450-694d-4907-8abe-699534972db6.jpg%3Fv%3D1709108892&w=1920&q=75" ,
+            "discription" : "A long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed"
+        } ,
+        {
+            "id" : 4 ,
+            "title":"11. Product with video"  ,
+            "price" : 39 ,
+            "image": "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0864%2F0607%2F0562%2Fproducts%2F5_dfad9b02-5481-48d7-8871-437d066106b5.jpg%3Fv%3D1709108899&w=1920&q=75" ,
+            "alterImg" : "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0864%2F0607%2F0562%2Fproducts%2F6_cb7fa61b-c039-4b83-80dc-1b9c7a7efcfa.jpg%3Fv%3D1709108899&w=1920&q=75" ,
+            "discription" : "As opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many"
+        },
+        {
+            "id" : 5 ,
+            "discountPre" : "-10%" ,
+            "title":"12. Unique content for each product on the product tab"  ,
+            "price" : 99 ,
+            "discount" : 111 ,
+            "image": "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0864%2F0607%2F0562%2Fproducts%2F1_ecaa91dc-998e-4ed2-b4a8-9206aa2ef4fc.jpg%3Fv%3D1709108907&w=1920&q=75" ,
+            "alterImg" : "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0864%2F0607%2F0562%2Fproducts%2F2.jpg%3Fv%3D1709108907&w=1920&q=75" ,
+            "discription" : "[short_description] All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. [/short_description] [product_description] There are many variations of passages of Lorem Ipsum available, but the majority"
+        } ,
+        {
+            "id" : 6 ,
+            "title":"2. New badge product"  ,
+            "price" : 80 ,
+            "image": "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0864%2F0607%2F0562%2Fproducts%2F7_719e5f02-4525-4c10-b8fd-b45660b08de4.jpg%3Fv%3D1709108914&w=1920&q=75" ,
+            "alterImg" : "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0864%2F0607%2F0562%2Fproducts%2F8_fcebc072-8193-4679-b10e-7f68a7e4d072.jpg%3Fv%3D1709108914&w=1920&q=75" ,
+            "discription" : "It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters,"
+        } ,
+        {
+            "id" : 7 ,
+            "title":"3. Variable product"  ,
+            "price" : 70 ,
+            "discount" : 85 ,
+            "image": "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0864%2F0607%2F0562%2Fproducts%2F9_efb61c0c-4d33-4c9c-947b-deac1aa4391c.jpg%3Fv%3D1709108923&w=1920&q=75" ,
+            "alterImg" : "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0864%2F0607%2F0562%2Fproducts%2F10_da3eb510-63c2-4f13-b224-8ae9e92102e8.jpg%3Fv%3D1709108923&w=1920&q=75" ,
+            "discription" : "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of"
+        } ,
+        {
+            "id" : 8 ,
+            "discountPre" : "-15%" ,
+            "title":"4. Soldout product"  ,
+            "price" : 70 ,
+            "discount" : 85 ,
+            "image": "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0864%2F0607%2F0562%2Fproducts%2F11_bd15bae0-27a6-4649-b220-2ec0ac8bb522.jpg%3Fv%3D1709108934&w=1920&q=75" ,
+            "alterImg" : "https://furns-react.netlify.app/_next/image?url=https%3A%2F%2Fcdn.shopify.com%2Fs%2Ffiles%2F1%2F0864%2F0607%2F0562%2Fproducts%2F12_f87051c2-0726-4a74-a98b-5b462b19dc78.jpg%3Fv%3D1709108934&w=1920&q=75" ,
+            "discription" : "At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum"
+        }
+    
+]

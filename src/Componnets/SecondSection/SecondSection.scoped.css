@@ -1,0 +1,62 @@
+@keyframes ann {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.SecondSection {
+  padding: 80px 0px;
+}
+@media (max-width: 992px) {
+  .SecondSection .row :nth-child(5) {
+    display: none !important;
+  }
+  .SecondSection .row :nth-child(4) {
+    display: none !important;
+  }
+}
+@media (max-width: 480px) {
+  .SecondSection .row :nth-child(5) {
+    display: none !important;
+  }
+  .SecondSection .row :nth-child(4) {
+    display: none !important;
+  }
+  .SecondSection .row :nth-child(3) {
+    display: none !important;
+  }
+}
+.SecondSection .item {
+  border: 2px solid #000;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  border-radius: 100%;
+}
+.SecondSection .item:hover::after {
+  opacity: 1;
+  animation-name: ann;
+  animation-duration: 7s;
+  animation-iteration-count: infinite;
+  transition: all 0.5s;
+}
+.SecondSection .item:hover {
+  border: 0;
+}
+.SecondSection .item::after {
+  content: "";
+  position: absolute;
+  top: -3px;
+  left: -2px;
+  width: 180px;
+  height: 180px;
+  opacity: 0;
+  border: 2px dashed rgb(255, 112, 4);
+  border-radius: 100%;
+}/*# sourceMappingURL=SecondSection.scoped.css.map */

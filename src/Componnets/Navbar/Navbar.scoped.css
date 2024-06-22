@@ -1,0 +1,107 @@
+.nav .colMaybeHidden {
+  display: none;
+}
+@media (max-width: 992px) {
+  .nav .colMaybeHidden {
+    display: block;
+  }
+  .nav ul li {
+    list-style: none;
+    padding: 0px !important;
+    margin-bottom: 20px !important;
+    margin-top: 20px;
+  }
+  .nav ul {
+    padding: 0 !important;
+  }
+  .nav a {
+    text-decoration: none;
+    color: #000;
+  }
+  .nav .PraentLis li:hover .dropList {
+    display: block;
+  }
+  .nav .dropList {
+    display: none;
+  }
+}
+@media (max-width: 480px) {
+  .nav .imageMaybrHidden {
+    display: none;
+  }
+  .nav .icons {
+    width: 100% !important;
+    gap: 20px !important;
+  }
+}
+@media (max-width: 320px) {
+  .nav .imageMaybrHidden {
+    display: none;
+  }
+  .nav .icons {
+    width: 100% !important;
+    gap: 20px !important;
+  }
+}
+.nav .icon-one {
+  cursor: pointer;
+}
+.nav .icon-one:hover {
+  color: rgb(255, 112, 4) !important;
+}
+.nav .icon-two {
+  position: relative;
+  cursor: pointer;
+}
+.nav .icon-two::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 20px;
+  top: 4px;
+  background-color: rgba(0, 0, 0, 0.137254902);
+  left: -80%;
+}
+.nav .icon-two:hover {
+  color: rgb(255, 112, 4) !important;
+}
+.nav .icon-three {
+  text-decoration: none !important;
+  cursor: pointer;
+  position: relative;
+}
+.nav .icon-three Link, .nav .icon-three a {
+  text-decoration: none !important;
+  color: #000;
+}
+.nav .icon-three Link:hover, .nav .icon-three a:hover {
+  color: rgb(255, 112, 4);
+}
+.nav .icon-three::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 20px;
+  top: 4px;
+  background-color: rgba(0, 0, 0, 0.1450980392) !important;
+  left: -80%;
+}
+.nav .icon-three:hover {
+  color: rgb(255, 112, 4) !important;
+}
+.nav .icon-three .countNav {
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  width: 20px;
+  background-color: rgb(255, 112, 4);
+  border-radius: 20px;
+  text-align: center;
+  color: #fff;
+}
+
+@media (max-width: 3000px) {
+  html, body {
+    overflow-x: hidden;
+  }
+}/*# sourceMappingURL=Navbar.scoped.css.map */

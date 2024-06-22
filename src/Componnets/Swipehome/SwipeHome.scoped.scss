@@ -1,0 +1,59 @@
+.parent{
+    @media (max-width:992px){
+align-items: center !important;
+.pparent{
+    justify-content: center !important;
+}
+.text-backage{
+   p{
+    font-size: 15px !important;
+   }
+   h1{
+    font-size: 30px;
+   }
+   button{
+    font-size: 16px !important;
+    width: 80% !important;
+   }
+}
+
+    }
+    @media (max-width:480px){
+        height: 60vh !important;
+    }
+
+    @media (max-width:320px){
+        height: 60vh !important;
+    }
+
+    .firstP{
+        font-size: 28px;
+        font-weight: 600;
+        color: #0000009d;
+    }
+    .firstH1{
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+    .secondP{
+        font-size: 16px;
+        font-weight: 600;
+        color: #0000009d;
+   
+    }
+    .buttonHome{
+        background-color: rgb(255, 112, 4) ;
+        color: #fff;
+        border: 0;
+        padding: 12px;
+        margin-top: 10px;
+        font-size: 20px;
+       
+
+        &:hover{
+            background-color: #000000b9;
+            color:rgb(255, 112, 4) ;
+            transition: all .6s;
+        }
+    }
+}

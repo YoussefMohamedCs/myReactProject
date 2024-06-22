@@ -1,0 +1,41 @@
+@media (max-width:1024px){
+    .parentOfTable{
+        width: 100% !important;
+        .table{
+            width: 100% !important;
+        }
+    }
+}
+.parentOfTable{
+    width: 100% ;
+    .table{
+        width: 50% ;
+    }
+}
+thead{
+    background-color: #00000042;
+height: 50px;
+line-height: 3;
+}
+tr{
+    line-height: 6;
+}
+.laastBTN{
+    padding:10px 0px;
+    border: none;
+    color: #fff;
+    background-color:rgb(255, 112, 4);
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+.ll{
+    cursor: pointer;
+margin-left: 10px;
+margin-right: 10px;
+}
+
+
+html,body{
+    scroll-behavior: smooth;
+}

@@ -1,0 +1,92 @@
+.footer{
+    @media (max-width:992px){
+        .ffooter{
+            align-items: center !important;
+            margin-bottom: 15px !important;
+        }
+    }
+    @media (max-width:768px){
+        .ffooter{
+            align-items: start !important;
+            margin-bottom: 15px !important;
+        }
+    }
+    @media (max-width:600px){
+        .ffooter{
+            align-items: start !important;
+            margin-bottom: 15px !important;
+        }
+    }
+    a{
+        text-decoration: none;
+        margin: 0 !important;
+        padding: 0 !important;
+        color: #fff !important; 
+    }
+    padding: 70px 0px;
+    .headerOfFooter{
+        color: #ffff;
+        font-weight: 400;
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+    background-color: rgb(47, 51, 58);
+    ul li{
+        list-style: none;
+        color: #fff;
+        
+
+    }
+    .social-media{
+        display: flex;
+        gap: 15px;
+        margin-top: 10px;
+        span{
+            cursor: pointer;
+            line-height:1;
+            padding: 5px;
+
+            border-radius: 50px;
+            &:hover{
+                background-color: orange;
+                
+            }
+        }
+    }
+    .linkPartTwo{
+        margin: 10px 0px;
+ transition: all .3s;
+        
+        &:hover{
+            transform: translateX(10px);
+            transition: transform .5s ease-in-out;
+            a{
+              color: orange !important;
+            }
+        }
+    }
+    .footerInputField{
+        padding: 10px 20px;
+        background-color: transparent;
+        color: #fff !important;
+        border: 1px solid #ffffff63;
+        outline: none;
+        &:focus{
+            border-color: orange;
+        }
+
+        &::placeholder{
+            color: #fff !important;
+        }
+    }
+    .buttonOfSub{
+        padding: 10px 25px;
+        background-color: rgb(255, 136, 0);
+        color: #fff;
+        border: none;
+        border-radius: 0;font-size: 18px;
+        font-weight: 400;
+
+        
+    }
+}

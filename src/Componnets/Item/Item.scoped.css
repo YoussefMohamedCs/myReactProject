@@ -1,0 +1,108 @@
+.para {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.product {
+  position: relative;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  width: 290px;
+  height: 318px;
+  position: relative;
+  cursor: pointer;
+}
+.product:hover .heart-two {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.product:hover .buttonADD {
+  opacity: 1;
+  transform: translateY(-50px);
+  overflow: hidden;
+}
+.product .buttonADD {
+  transition: transform 0.5s;
+  transition: all 0.5s;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  transform: translateY(-30px);
+  opacity: 0;
+  width: 70% !important;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+}
+.product .buttonADD:hover {
+  background-color: rgb(255, 112, 4);
+  color: #fff;
+}
+.product .loveAndDiscount {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.product .image {
+  position: relative;
+}
+.product .image .imagee {
+  width: 100%;
+  height: 300px !important;
+}
+.product .image .whenHoverd {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  opacity: 0;
+}
+.product .image:hover .whenHoverd {
+  opacity: 1;
+}
+
+.heart-two {
+  transform: translateY(20px);
+  opacity: 0;
+  transition: transform 0.5s;
+  transition: all 0.5s;
+}
+
+.heart {
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.631372549);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.heart:hover {
+  background-color: rgb(255, 112, 4);
+  color: #fff;
+}
+
+.dashed {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.3294117647);
+  font-weight: bolder;
+}
+
+.actualyPrice {
+  color: #000;
+  font-weight: bolder;
+}
+
+.bag {
+  color: rgb(255, 112, 4);
+}
+
+.underBag {
+  font-size: 30px;
+  font-weight: bolder;
+}/*# sourceMappingURL=Item.scoped.css.map */

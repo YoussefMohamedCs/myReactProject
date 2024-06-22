@@ -1,0 +1,131 @@
+.nav{
+
+    .colMaybeHidden{
+        display: none;
+    }
+
+@media (max-width:992px){
+.colMaybeHidden{
+    display: block;
+}
+
+ul li{
+    list-style: none;
+    padding: 0px !important;
+    margin-bottom: 20px !important;
+    margin-top: 20px;
+
+
+}
+ul{
+    padding: 0 !important;
+
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+.PraentLis{
+   
+    li{
+
+        &:hover{
+            .dropList{
+                display: block;
+            }
+        }
+
+    }
+}
+.dropList{
+    display: none;
+}
+
+
+
+
+}
+@media (max-width:480px){
+    .imageMaybrHidden{
+        display: none;
+    }
+    .icons{
+        width: 100% !important;
+        gap: 20px !important;
+    }
+    
+}
+@media (max-width:320px){
+    .imageMaybrHidden{
+        display: none;
+    }
+    .icons{
+        width: 100% !important;
+        gap: 20px !important;
+    }
+    
+}
+
+    .icon-one{
+        cursor: pointer;
+        &:hover{
+            color: rgb(255, 112, 4) !important;
+        }
+    }
+    .icon-two{
+        position: relative;
+        &::before{
+            content: "";
+            position: absolute;
+            width: 2px;
+            height: 20px;
+            top: 4px;
+            background-color: #00000023;
+     left:-80%;
+        }
+        cursor: pointer;
+        &:hover{
+            color: rgb(255, 112, 4) !important;
+        }
+    }
+    .icon-three{
+  text-decoration: none !important;
+  Link , a {
+    text-decoration: none !important;
+    color: #000;
+    &:hover{
+        color:rgb(255, 112, 4) ;
+    }
+  }
+        &::before{
+           
+            content: "";
+            position: absolute;
+            width: 2px;
+            height: 20px;
+            top: 4px;
+            background-color: #00000025 !important;
+     left:-80%;
+        }
+        cursor: pointer;
+        position: relative;
+        &:hover{
+            color: rgb(255, 112, 4) !important;
+        }
+        .countNav{
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        width: 20px;
+        background-color: rgb(255, 112, 4);
+        border-radius: 20px;
+        text-align:center ;
+        color: #fff;
+        }
+    }
+}
+@media (max-width:3000px){
+    html,body{
+        overflow-x: hidden;
+    }
+}

@@ -1,0 +1,213 @@
+.thrdSection {
+  padding: 60px 0px;
+}
+@media (max-width: 1024px) {
+  .thrdSection .text-up {
+    width: 100% !important;
+  }
+  .thrdSection .text-up h2 {
+    font-size: 30px !important;
+    font-weight: bolder !important;
+  }
+  .thrdSection .text-up p {
+    font-weight: 500 !important;
+  }
+  .thrdSection .upOfSelect {
+    width: 100% !important;
+  }
+  .thrdSection .upOfSelect button {
+    font-size: 25px !important;
+  }
+  .thrdSection .part2 {
+    width: 100% !important;
+  }
+  .thrdSection .product {
+    width: 100% !important;
+  }
+}
+@media (max-width: 480px) {
+  .thrdSection .text-up {
+    width: 100% !important;
+  }
+  .thrdSection .text-up h2 {
+    font-size: 30px !important;
+    font-weight: bolder !important;
+  }
+  .thrdSection .text-up p {
+    font-weight: 500 !important;
+  }
+  .thrdSection .upOfSelect {
+    width: 100% !important;
+  }
+  .thrdSection .upOfSelect button {
+    font-size: 18px !important;
+  }
+  .thrdSection .part2 {
+    width: 100% !important;
+  }
+  .thrdSection .product {
+    width: 100% !important;
+  }
+}
+@media (max-width: 320px) {
+  .thrdSection .upOfSelect {
+    width: 100% !important;
+  }
+  .thrdSection .upOfSelect button {
+    font-size: 14px !important;
+  }
+  .thrdSection .part2 {
+    width: 100% !important;
+  }
+}
+.thrdSection .text-up {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 30%;
+}
+.thrdSection .text-up .h2TextUp {
+  color: #000;
+  font-size: 40px;
+}
+.thrdSection .text-up .pTextUp {
+  font-size: 20px;
+  margin-top: 10px;
+  color: rgba(0, 0, 0, 0.6901960784);
+}
+.thrdSection .secPart {
+  padding: 30px 0px;
+}
+.thrdSection .secPart ul li {
+  list-style: none;
+}
+.thrdSection .secPart .upOfSelect {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.thrdSection .secPart .upOfSelect button {
+  border: 0px;
+  background-color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.thrdSection .secPart .upOfSelect button:focus {
+  color: rgb(255, 112, 4);
+  outline: none !important;
+}
+.thrdSection .secPart .upOfSelect button:hover {
+  color: rgb(255, 112, 4);
+}
+.thrdSection .part2 {
+  text-align: center;
+}
+.thrdSection .part2 .para {
+  font-size: 16px;
+  font-weight: 600;
+}
+.thrdSection .part2 .product {
+  position: relative;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+  width: 290px;
+  height: 318px;
+  position: relative;
+  cursor: pointer;
+}
+.thrdSection .part2 .product:hover .heart-two {
+  transform: translateY(0px);
+  opacity: 1;
+}
+.thrdSection .part2 .product:hover .buttonADD {
+  opacity: 1;
+  transform: translateY(-50px);
+  overflow: hidden;
+}
+.thrdSection .part2 .product .buttonADD {
+  transition: transform 0.5s;
+  transition: all 0.5s;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 99;
+  transform: translateY(-30px);
+  opacity: 0;
+  width: 70% !important;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #fff;
+  border: none;
+  padding: 10px;
+  font-weight: bold;
+}
+.thrdSection .part2 .product .buttonADD:hover {
+  background-color: rgb(255, 112, 4);
+  color: #fff;
+}
+.thrdSection .part2 .product .loveAndDiscount {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 2;
+}
+.thrdSection .part2 .product .image {
+  position: relative;
+}
+.thrdSection .part2 .product .image .imagee {
+  width: 100%;
+  height: 100%;
+}
+.thrdSection .part2 .product .image .whenHoverd {
+  position: absolute;
+  inset: 0;
+  z-index: 1;
+  opacity: 0;
+}
+.thrdSection .part2 .product .image:hover .whenHoverd {
+  opacity: 1;
+}
+.thrdSection .part2 .heart-two {
+  transform: translateY(20px);
+  opacity: 0;
+  transition: transform 0.5s;
+  transition: all 0.5s;
+}
+.thrdSection .part2 .heart {
+  color: #000000;
+  background-color: rgba(255, 255, 255, 0.631372549);
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 20px;
+}
+.thrdSection .part2 .heart:hover {
+  background-color: rgb(255, 112, 4);
+  color: #fff;
+}
+.thrdSection .part2 .dashed {
+  text-decoration: line-through;
+  color: rgba(0, 0, 0, 0.3294117647);
+  font-weight: bolder;
+}
+.thrdSection .part2 .actualyPrice {
+  color: #000;
+  font-weight: bolder;
+}
+.thrdSection .part2 .bag {
+  color: rgb(255, 112, 4);
+}
+.thrdSection .part2 .underBag {
+  font-size: 30px;
+  font-weight: bolder;
+}
+.thrdSection a {
+  text-decoration: none !important;
+  color: #000 !important;
+}/*# sourceMappingURL=Thirdsection.scoped.css.map */

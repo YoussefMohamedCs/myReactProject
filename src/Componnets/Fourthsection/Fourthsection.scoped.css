@@ -1,0 +1,83 @@
+.fourth-section {
+  padding: 40px 0px;
+}
+@media (max-width: 720px) {
+  .fourth-section .image-one {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 600px) {
+  .fourth-section .image-one {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 480px) {
+  .fourth-section .image-one {
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 320px) {
+  .fourth-section .image-one {
+    width: 100% !important;
+    height: 170px !important;
+    padding: 0 !important;
+    margin-bottom: 15px;
+  }
+  .fourth-section .image-one h3 {
+    font-size: 20px !important;
+  }
+  .fourth-section .image-one p {
+    font-size: 14px !important;
+  }
+  .fourth-section .image-two {
+    width: 100% !important;
+    height: 170px !important;
+    padding: 0 !important;
+  }
+  .fourth-section .image-two h3 {
+    font-size: 20px !important;
+  }
+  .fourth-section .image-two p {
+    font-size: 14px !important;
+  }
+}
+.fourth-section .image-one {
+  background-image: url("https://furns-react.netlify.app/_ipx/w_1920,q_75/%2Fimages%2Fbanner%2F1.jpg?url=%2Fimages%2Fbanner%2F1.jpg&w=1920&q=75");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 290px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  padding: 0px 25px;
+}
+.fourth-section .image-one h3 {
+  font-size: 35px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.fourth-section .image-one p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.4862745098);
+}
+.fourth-section .image-two {
+  background-image: url("https://furns-react.netlify.app/_ipx/w_1920,q_75/%2Fimages%2Fbanner%2F2.jpg?url=%2Fimages%2Fbanner%2F2.jpg&w=1920&q=75");
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: 290px;
+  padding: 0px 25px;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+.fourth-section h3 {
+  font-size: 35px;
+  line-height: 1.2;
+  font-weight: 500;
+}
+.fourth-section p {
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.4862745098);
+}/*# sourceMappingURL=Fourthsection.scoped.css.map */
