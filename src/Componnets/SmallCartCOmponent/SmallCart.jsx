@@ -45,7 +45,7 @@ console.log(allPrice)
             cart.map((item)=>{
                 return(
 
-<div className="col-lg-12 d-flex  flex-wrap align-content-between p-relative bbordered">
+<div className="col-lg-12 d-flex  align-content-between  bbordered">
 
 <div className="row">
     <div className="col-lg-5">

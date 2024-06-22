@@ -18,14 +18,14 @@ export default function Navbar() {
         <div className="container-lg">
             <div className="row justify-content-between">
                 <div className="col-lg-3 colMaybeHidden col-md-3 col-3 col-sm-3">
-                    <div className="toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">
+                    <div className="toggle" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight1" aria-controls="offcanvasRight">
                     <GiHamburgerMenu size={'30px'} />
                     </div>
 
-<div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+<div className="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight1" aria-labelledby="offcanvasRightLabel">
   <div className="offcanvas-header">
-    <h5 className="offcanvas-title" id="offcanvasRightLabel">                <img src="https://furns-react.netlify.app/_next/image?url=%2Fimages%2Flogo%2Flogo.png&w=1920&q=75" alt="" /></h5>
-    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    <h5 className="offcanvas-title" id="offcanvasRightLabel1">                <img src="https://furns-react.netlify.app/_next/image?url=%2Fimages%2Flogo%2Flogo.png&w=1920&q=75" alt="" /></h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas1" aria-label="Close"></button>
   </div>
   <div className="offcanvas-body">
   <ul className='PraentLis'>
